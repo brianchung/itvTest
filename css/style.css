@@ -1,0 +1,22 @@
+body{
+	background: url(../img/bg.jpg); /* no-repeat;*/
+    background-size: cover;
+	background-position: center center;
+}
+
+.homecontainer{
+	margin-top: 60px;
+    height: 100%;
+    min-height: 878px;
+}
+
+footer{
+	position: fixed;
+    bottom: 0;
+}
+
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
