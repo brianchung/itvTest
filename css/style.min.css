@@ -1,4 +1,1 @@
-body{background:url(../img/bg.jpg);background-size:cover;background-position:center center}
-.homecontainer{margin-top:60px;height:100%;min-height:878px}
-footer{position:fixed;bottom:0}
-.navbar-inverse{background-color:transparent;border-color:transparent}
+body{background:url(../img/bg.jpg);background-size:cover;background-position:center center}.homecontainer{margin-top:60px;height:100%;min-height:878px}.navbar-inverse{background-color:transparent;border-bottom-color:transparent;border-top:5px solid #ce214e}footer{position:absolute;bottom:0;width:100%;left:0;margin:auto;padding:20px 3% 10px;background-color:#2b2b2b;color:#fff}.footerlink{padding:0 8px;color:#fff}.footeraia{font-size:18px;font-weight:700}
