@@ -1,14 +1,9 @@
 body{
 	background: url(../img/bg.jpg); /* no-repeat;*/
     background-size: cover;
-	/*background-position: center center;*/
 }
 
 /*nav*/
-.navcontainer{
-	/*width: 100%;
-	margin: auto;*/
-}
 .navbar-nav {
     margin: 7.5px -15px;
 }
@@ -20,18 +15,11 @@ body{
 .navbar-inverse .navbar-nav li a{
 	color: #2e2e2e;
 	text-transform: uppercase;
-	/*padding-left: 0;
-	padding-right: 0;
-	margin: 20px;*/
-	/*padding: 0 0 15px 0;
-	margin:15px;*/
-	
 	margin: 15px;
 }
 .navbar-inverse .navbar-nav li a:focus,
 .navbar-inverse .navbar-nav li a:hover{
 	background-color: #ce2248;
-	/*padding: 15px;*/
 }
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
@@ -53,11 +41,8 @@ body{
     font-size: 24px;
 }
 
-
 /*footer*/
 footer{
-	/*position: fixed;*/
-	/*position: absolute;*/
     bottom: 0;
 	width: 100%;
     left: 0;
@@ -76,11 +61,9 @@ footer{
 }
 
 /*homepage*/
-
 .homecontainer{
 	margin-top: 160px;
     height: 100%;
-    /*min-height: 878px;*/
 }
 .panel{
 	margin-bottom: 30px;
@@ -105,14 +88,11 @@ footer{
     color: #fff;
     height: auto;
     position: fixed;
-    /*top: 82px;*/
-	
 	top: 78px;
-	
     width: 100%;
 	left: 0;
 	z-index: 2000;
-	/*display: none;*/
+	display: none;
 }
 
 .product{
@@ -145,7 +125,6 @@ footer{
 .self{
 	font-size: 30px;
 	text-align: right;
-	
 }
 .details{
 	border-left: 1px solid #606060;
@@ -171,16 +150,12 @@ footer{
     border-radius: 50%;
     border: 3px solid #cf234b;
     background-color: #000;
-	
 	background-repeat: no-repeat;
     background-size: 36px;
     background-position: center;
 }
 .pa{
     background-image: url('../img/pa.png');
-    /*background-repeat: no-repeat;
-    background-size: 36px;
-    background-position: center;*/
 }
 .life{
 	background-image: url('../img/life.png');
@@ -197,7 +172,6 @@ footer{
 .paddingtop{
 	padding-top: 30px;
 }
-
 
 /*bootstrap radio*/
 .btn-primary {
@@ -218,11 +192,9 @@ footer{
 div#slider-age {
     width: 80%;
 }
-
 .ui-widget-header {
     background: #272727 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
 }
-
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border: 5px solid #43474a;
     background: #2f3034 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
@@ -230,18 +202,4 @@ div#slider-age {
 }
 .ui-widget-content {
     background: #d62551 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
-}
-
-
-/*.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
-	border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}*/
-
-
-
-/*slider*/
-#ageSlider .slider-selection {
-	background: #BABABA;
-	color: red;
 }
