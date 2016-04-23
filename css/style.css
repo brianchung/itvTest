@@ -116,7 +116,10 @@ footer{
 }
 
 .product{
-	padding: 5% 3%;
+	padding: 5% 3% 0;
+}
+.product .row{
+	margin: 20px auto;
 }
 .info{
 	background-color: #9c1938;
@@ -205,6 +208,31 @@ footer{
 	background-color: #d0234e;
     border-color: #d0234e;
 }
+.children{
+	display: inline-block;
+	width: 70px;
+	background-color: #484b50;
+	border-color: #484b50;
+	color: #fff;
+}
+div#slider-age {
+    width: 80%;
+}
+
+.ui-widget-header {
+    background: #272727 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 5px solid #43474a;
+    background: #2f3034 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+    border-radius: 50%;
+}
+.ui-widget-content {
+    background: #d62551 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+}
+
+
 /*.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
 	border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;

@@ -12,14 +12,16 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/style.min.css" rel="stylesheet">
+    
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	
-	<link href="font-awesome/css/awesome-bootstrap-checkbox.min.css" rel="stylesheet" type="text/css">
+	<!--<link href="font-awesome/css/awesome-bootstrap-checkbox.min.css" rel="stylesheet" type="text/css">-->
 	
-	<!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	
+	<!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -213,7 +215,9 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-right">Your Age</div>
 					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
-						<input id="age" data-slider-id='ageSlider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>
+						<!--<input id="age" data-slider-id='ageSlider' type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="14"/>-->
+						<!--<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">-->
+						<div id="slider-age" data-toggle="tooltip" data-placement="top"></div>
 					</div>
 				</div>
 				
@@ -227,12 +231,20 @@
 						  <label class="btn btn-primary radiocheck">
 							<input type="radio" name="options" id="option3" autocomplete="off"> Married
 						  </label>
+						  
+						  
 						</div>
+						Children 
+						  <input type="number" id="progress-value" min="0" max="100" class="form-control children" placeholder="">
 					</div>
 				</div>
 				
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Do you or your family members suffer from:</div>
+					
+				</div>
+				
+				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 						<label class="checkbox-inline"><input type="checkbox" value="">Cancer</label>
@@ -295,8 +307,8 @@
         </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-	<!--<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
