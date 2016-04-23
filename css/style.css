@@ -41,7 +41,7 @@ body{
 	background-color: transparent;
 }
 #start{
-	background-color:#000;
+	background-color:#2b2b2b;
 	color: #fff;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -101,9 +101,9 @@ footer{
 
 /*start panel*/
 #startpanel{
-	background-color: #000;
+	background-color: #2b2b2b;
     color: #fff;
-    height: 100%;
+    height: auto;
     position: fixed;
     /*top: 82px;*/
 	
