@@ -26,7 +26,7 @@ body{
 	/*padding: 0 0 15px 0;
 	margin:15px;*/
 	
-	margin: 20px;
+	margin: 15px;
 }
 .navbar-inverse .navbar-nav li a:focus,
 .navbar-inverse .navbar-nav li a:hover{
@@ -45,6 +45,12 @@ body{
 	color: #fff;
 	padding-left: 15px;
 	padding-right: 15px;
+	cursor: pointer;
+}
+#start > i{
+	top: 2px;
+    position: relative;
+    font-size: 24px;
 }
 
 
@@ -93,16 +99,20 @@ footer{
 	color: #fe829e;
 }
 
+/*start panel*/
 #startpanel{
 	background-color: #000;
     color: #fff;
     height: 100%;
     position: fixed;
-    top: 82px;
+    /*top: 82px;*/
+	
+	top: 78px;
+	
     width: 100%;
 	left: 0;
 	z-index: 2000;
-	display: none;
+	/*display: none;*/
 }
 
 .product{
@@ -111,6 +121,13 @@ footer{
 .info{
 	background-color: #9c1938;
 	padding: 5% 3%;
+}
+.info a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.info a .fa{
+	font-size: 18px;
 }
 .recomendation{
 	background-color: #d02149;
@@ -122,4 +139,81 @@ footer{
 	font-size: 25px;
     line-height: 60px;
 }
+.self{
+	font-size: 30px;
+	text-align: right;
+	
+}
+.details{
+	border-left: 1px solid #606060;
+}
+.next,
+.next:hover{
+	background-color: #d02149;
+	display: block;
+    width: 100px;
+    padding: 8px;
+    margin: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.next i{
+	float: right;
+    font-size: 20px;
+}
 
+.circle{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #cf234b;
+    background-color: #000;
+	
+	background-repeat: no-repeat;
+    background-size: 36px;
+    background-position: center;
+}
+.pa{
+    background-image: url('../img/pa.png');
+    /*background-repeat: no-repeat;
+    background-size: 36px;
+    background-position: center;*/
+}
+.life{
+	background-image: url('../img/life.png');
+}
+.takaful{
+	background-image: url('../img/takaful.png');
+}
+
+#startpanel h3{
+	position: absolute;
+    top: 0;
+    left: 100px;
+}
+.paddingtop{
+	padding-top: 30px;
+}
+
+
+/*bootstrap radio*/
+.btn-primary {
+    background-color: #484b50;
+    border-color: #484b50;
+}
+.btn-primary.active{
+	background-color: #d0234e;
+    border-color: #d0234e;
+}
+/*.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
+	border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}*/
+
+
+
+/*slider*/
+#ageSlider .slider-selection {
+	background: #BABABA;
+	color: red;
+}
